@@ -7,26 +7,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Hello World!"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="132dp"
+        android:fontFamily="@font/nexon_gothic_bold"
+        android:text="@string/onboarding_start"
+        android:textColor="#3b3b3b"
+        android:textSize="30sp"
+        android:lineSpacingExtra ="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/go_register_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_btn"
+        android:fontFamily="@font/nexon_gothic_bold"
+        android:text="@string/onboarding_btn"
+        android:textColor="#3b3b3b"
+        android:textSize="30sp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" />
-
+        app:layout_constraintVertical_bias="0.853" />
 </androidx.constraintlayout.widget.ConstraintLayout>
