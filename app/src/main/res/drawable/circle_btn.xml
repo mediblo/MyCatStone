@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 배경을 투명으로 하면 clipToOutline만 쓰고, 채우는 컬러는 보이지 않습니다 -->
+    <solid android:color="@color/gray"/>
+</shape>

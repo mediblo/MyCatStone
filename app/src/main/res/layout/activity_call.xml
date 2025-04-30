@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brightgray">
+
+    <!-- 다이얼 -->
+
+    <!-- 밑의 버튼들 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="164dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/oneBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/one"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/twoBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/two"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/threeBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/three"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fourBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/four"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/fiveBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/five"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sixBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/six"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/seven"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/eightBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/eight"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/nineBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/nine"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/starBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/star"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/zeroBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/zero"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+
+            <!-- 중간 텀 -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sharpBtn"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle_btn"
+                android:text="@string/sharp"
+                android:fontFamily="@font/nexon_gothic_bold"
+                android:textColor="#3b3b3b"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:elevation="35dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- 중간 텀 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- 첫 번째 아이템 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/callBtn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                app:srcCompat="@drawable/call_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/callBtn"
+                android:fontFamily="@font/nexon_gothic_regular"
+                android:textColor="#3b3b3b"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- 중간 텀 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- 두 번째 아이템 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/callLogBtn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                app:srcCompat="@drawable/call_log_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/nexon_gothic_regular"
+                android:text="@string/callLogBtn"
+                android:textColor="#3b3b3b"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- 중간 텀 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- 세 번째 아이템 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/addressBookBtn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                app:srcCompat="@drawable/address_book_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/nexon_gothic_regular"
+                android:text="@string/addressBookBtn"
+                android:textColor="#3b3b3b"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- 중간 텀 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- 네 번째 아이템 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/profileBtn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@null"
+                app:srcCompat="@drawable/profile_btn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/nexon_gothic_regular"
+                android:text="@string/profileBtn"
+                android:textColor="#3b3b3b"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- 중간 텀 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/numberText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/nexon_gothic_bold"
+        android:gravity="center"
+        android:text="@null"
+        android:textAlignment="center"
+        android:textColor="#3b3b3b"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/numberClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="592dp"
+        android:layout_marginEnd="72dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/number_clear"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/callingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="576dp"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calling_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-
-    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication">
+        <!-- 포커스 시 언더라인·Accent 색 -->
+        <item name="colorControlActivated">@color/activateBlue</item>
+        <!-- 기본 언더라인 색 -->
+        <item name="colorControlNormal">@color/deActivate</item>
+    </style>
 </resources>

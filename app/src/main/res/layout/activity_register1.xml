@@ -6,7 +6,8 @@
     android:id="@+id/register1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity1">
+    tools:context=".RegisterActivity1"
+    android:backgroundTint="@color/white">
 
     <TextView
         android:id="@+id/textView"
