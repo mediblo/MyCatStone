@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -13,7 +14,7 @@ public class CallActivity extends AppCompatActivity {
      Button[] buttons;
      ImageButton numberClear, callingBtn;
      TextView numberText;
-    private StringBuilder rawDigits = new StringBuilder();
+    private final StringBuilder rawDigits = new StringBuilder();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,8 +72,12 @@ public class CallActivity extends AppCompatActivity {
             return true;
         });
 
-        callingBtn.setOnClickListener(v -> {
-
+        callingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CallActivity.this, CallingActivity.class);
+                startActivity(intent);
+            }
         });
     }
 

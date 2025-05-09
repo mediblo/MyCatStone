@@ -38,7 +38,14 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.filament.android)
+
+    implementation("io.socket:socket.io-client:2.0.1") {
+        // org.json 충돌이 날 경우 제외
+        exclude(group = "org.json", module = "json")
+    }
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
+

@@ -5,8 +5,11 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32"/>
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -29,6 +32,7 @@
         <activity android:name=".RegisterActivity1"></activity>
         <activity android:name=".RegisterActivity2"></activity>
         <activity android:name=".CallActivity"></activity>
+        <activity android:name=".CallingActivity"></activity>
 
     </application>
 
