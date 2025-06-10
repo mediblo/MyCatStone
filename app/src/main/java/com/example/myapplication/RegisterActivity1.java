@@ -29,7 +29,7 @@ public class RegisterActivity1 extends AppCompatActivity {
         register_btn_anony.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RegisterActivity1.this, CallActivity.class);
+                Intent intent = new Intent(RegisterActivity1.this, SettingActivity.class);
                 startActivity(intent);
             }
         });

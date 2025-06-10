@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.myapplication"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -38,6 +38,10 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.filament.android)
+    implementation("org.webrtc:google-webrtc:1.0.32006")  {
+        // org.json 충돌이 날 경우 제외
+        exclude(group = "org.json", module = "json")
+    }
 
     implementation("io.socket:socket.io-client:2.0.1") {
         // org.json 충돌이 날 경우 제외
