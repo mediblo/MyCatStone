@@ -25,6 +25,7 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -32,24 +33,20 @@ android {
 }
 
 dependencies {
-
+    // AndroidX 기본 라이브러리들
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.filament.android)
-    implementation("org.webrtc:google-webrtc:1.0.32006")  {
-        // org.json 충돌이 날 경우 제외
-        exclude(group = "org.json", module = "json")
-    }
 
+    // Socket.IO 클라이언트 (org.json 충돌 방지용 exclude 추가)
     implementation("io.socket:socket.io-client:2.0.1") {
-        // org.json 충돌이 날 경우 제외
         exclude(group = "org.json", module = "json")
     }
 
+    // 테스트 라이브러리
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
-

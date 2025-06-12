@@ -19,7 +19,10 @@ public class SettingActivity extends AppCompatActivity {
             Manifest.permission.READ_CONTACTS,
             Manifest.permission.RECORD_AUDIO,
             Manifest.permission.INTERNET,
-            Manifest.permission.MODIFY_AUDIO_SETTINGS
+            Manifest.permission.MODIFY_AUDIO_SETTINGS,
+            Manifest.permission.FOREGROUND_SERVICE,
+            Manifest.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION,
+            Manifest.permission.CALL_PHONE
     };
 
     @Override
